@@ -1,0 +1,306 @@
+@import url("reset.css");
+       *{
+	   padding:0;
+	   margin:0;
+	   }
+	   
+	   .wrapper{
+		   position: relative;
+		   width:1000px;
+		   margin:auto;
+		   background-color:white;
+	   }
+
+	   .header{
+		   height:30px;
+		   background-color: #b0001b;
+		   padding: 0 0 5 5;
+		   position: relative;
+	   }
+	    .headline{
+		font-size: 17px;
+		font-weight: bold;
+		padding:5 10;
+		color:white;
+	   
+	   }
+	   
+	   p{
+		font-family: Times New Roman; 	   	
+	   }
+	   
+	   .big_line{
+		font-size: 16px;
+	   }
+	   	  
+	   .content_area{
+				position: relative;
+				height:517px;
+				border-bottom:2px;
+				font-family: ;
+	   }
+	   .content_area h1 {
+			padding: 50 0 0 0;
+		}
+		.content_border{
+			height:20px;
+			padding:10 0 0 5px;
+			//background-color:blue;
+		}
+		.content_border2{
+			height:100px;
+			padding:10 0 0 5px;
+			//background-color:pink;
+		}
+		.content_border3{
+			height:150px;
+			padding:10 0 0 5px;
+			//background-color:green;
+		}
+		
+		.redline{
+			background-color: #B0001B; 	
+			position: absolute;
+			top:10px;
+			left:500px;
+			height:500px;
+			width: 5px;		
+			border-radius: 3px;
+			box-shadow: 5px 5px 2px #888888;
+					
+		}		
+		
+	   .footer{
+				height:30px;
+			   	  
+				border-height:5px;
+				  
+				border-top: 3px solid #b0001b;
+	   }
+.button{
+		background-color:#428BCA;
+		color:white;
+		height:30px; 
+		border: solid 1px #428BCA;
+		border-radius:5px ;
+}
+
+.button_left{
+		position: absolute;
+		background-color:#428BCA;
+		color:white;
+		height:30px;
+		display: block;
+		right: 120px;
+		bottom: 323px;
+		border: solid 1px #428BCA;
+		border-radius:5px ;
+}
+
+	   .blank{
+		background-color: white;
+		height: 20px;
+	   }
+	   
+	   
+	   
+	   hr{
+			color: #F7F7F7;
+	   }
+	.nav1 {
+   	float: right;
+   	text-decoration: none;
+   	font-size: 14px;
+   	font-weight: bold;
+   	width: 250px;
+      height: 15px;
+   	position: absolute;
+   	left: 531px;
+    	top: 6px;   
+	   }
+	   
+	   .nav1 li{
+			border-right: solid white 1px;
+			text-decoration: none;
+			font-size: 10px;
+			float:left;
+			text-align: center;			
+			padding: 10 20;
+			
+	   }
+	   
+	   .nav1 a{
+			text-decoration: none;
+			color: white;
+			float:right;
+	   }
+	   
+	   
+	   .nav2{
+			float:left;
+			padding: 15px;
+			width: 200px;
+			
+	   }
+	   
+	   .mid_cont{
+			
+			width: 70%;
+			margin:0 auto;
+		
+	   }
+	   
+	   
+	   .mid_cont img{
+  display: block;
+float: right;
+height: 100px;
+width: 100px;
+right: 123px;
+position: absolute;
+top: 46px;
+}
+
+	   
+	   .nav2 li{
+			float:left;
+			padding-right:10px;
+			font-size: 12px;
+			color: red;
+			text-align: center;
+			margin:0;
+			width:25%;
+	   }
+	   .nav2 a{
+			text-decoration: none;
+			color:red;
+	   }
+	   
+	   .nav3{
+			float:right;		
+			width: 80px;			
+			color: red;
+			padding: 15px 0;
+			
+	   }
+	   
+	   .nav3 li{
+	   
+			float:left;
+			text-decoration:none;
+			font-size: 12px;
+			
+			
+			
+	   }	   
+	   .nav4 li{
+	   
+			text-decoration:none;
+			float: left;
+			padding: 12px 0;
+			
+	   }
+	   
+	   .right_c{
+			display: block;
+			float: left;
+			width: 414px;
+			position: relative;
+			
+	   }
+	   .text{
+		left: 200px;
+
+	   }
+	   
+	   .text_c{
+		text-align: center;
+	   }
+	   
+	   
+	   .right_c p input{
+			text-align: right;
+		}
+	   
+	   }
+	   
+	  .middle {
+			position:fixed;
+		
+	}
+	   
+	   .left_c{
+	      position:absolute;
+			display: block;
+			width: 450px;
+			left: 549px;
+	   
+	   }
+	   
+	   p{
+	   		font-size: 14px;
+	   }
+	   
+	   #state{
+			
+			position: absolute;
+			top: 2px;
+    		left: 353px;
+}   
+	   #help{
+			position:absolute;
+			top: 2px;
+ 			left: 426px;
+}   
+
+	.nav2 li{
+		border-right: solid red 1px;
+			
+	}
+
+
+	.nav4 li{
+			color: rgb(148, 17, 17);
+	}
+	
+	.inner_wrap{
+			width: 500px;	
+	}
+	
+	.foot_name{
+		position: absolute;
+		bottom: 1px;
+		color: #F00;
+		right: 453px;
+			
+	}
+
+	#separator{
+	
+		background-color : #6C6B6B; 	
+		height: 1px;
+		width: 800px;
+		left: 55px;
+		position: absolute;
+}
+
+	#position{
+			
+			position: absolute;
+			left: 200px;
+			top: 205px;
+	}
+	
+	.table_donor{
+		position: absolute;
+		top: 170px;
+		right: 145px;
+	}
+	
+	
+	#h3{
+		position: absolute;		
+			
+	}	
+	
+	
